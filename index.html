@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ToDo list на TypeScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>ToDo list</h1>
+<div class="todo-container">
+<!--  <label for="taskInput" class="sr-only">Новая задача</label>-->
+  <input id="taskInput" data-testid="task-input" type="text" placeholder="Новая задача...">
+  <button id="addTask" data-testid="add-task-btn">Добавить</button>
+</div>
+<ul id="taskList" data-testid="task-list"></ul>
+
+<script type="module" src="dist/index.js"></script>
+</body>
+</html>
