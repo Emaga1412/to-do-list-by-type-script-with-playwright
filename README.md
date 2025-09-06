@@ -22,9 +22,11 @@ To-Do List (TypeScript + Playwright)
    npm install
 
 2. Собрать TypeScript:
+   ```bash
    npx tsc
 
 3. Запуск тестов:
+   ```bash
    npx playwright test
 
 Проект создан для практики и изучения фронтенд-разработки и тестирования.
